@@ -1,0 +1,31 @@
+.fm{
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+.form-group {
+	display: flex;
+	justify-content: center;
+	
+}
+.col-md-6 {
+	display: -ms-flexbox;
+	justify-content: center;
+}
+.textoc {
+	text-align: left;
+}
+.btn {
+	background-color: $background-color_3;
+	color: $color_4;
+	font-weight: bold;
+	&:hover {
+		background-color: $background-color_2;
+		color: $color_2;
+		font-weight: bold;
+	}
+}
+
+footer{
+	@include anclas;
+}

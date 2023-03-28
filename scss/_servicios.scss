@@ -1,0 +1,57 @@
+.infos {
+	height: 250px;
+	display: flex;
+	border-top: 2px black solid;
+	padding: 50px;
+	background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
+	justify-content: center;
+}
+.contenedors {
+	margin-top: -120px;
+}
+.imgser {
+	width: 300px;
+	height: 300px;
+	background-image: url(https://www.actualis.com.ar/wp-content/uploads/2021/06/manicura-1.png);
+	background-size: cover;
+	border-radius: 100%;
+	margin-top: 200px;
+	margin-bottom: 120px;
+}
+.imgser2 {
+	width: 300px;
+	height: 300px;
+	background-image: url(https://www.actualis.com.ar/wp-content/uploads/2021/06/estetica-de-pies-1.png);
+	background-size: cover;
+	border-radius: 100%;
+	margin-top: 200px;
+	margin-bottom: 120px;
+}
+.imgser3 {
+	width: 300px;
+	height: 300px;
+	background-image: url(https://www.actualis.com.ar/wp-content/uploads/2021/06/faciales-1.png);
+	background-size: cover;
+	border-radius: 100%;
+	margin-top: 200px;
+	margin-bottom: 120px;
+}
+.imgser4 {
+	width: 300px;
+	height: 300px;
+	background-image: url(https://www.actualis.com.ar/wp-content/uploads/2021/06/depil%C3%A1ser.png);
+	background-size: cover;
+	border-radius: 100%;
+	margin-top: 200px;
+	margin-bottom: 120px;
+}
+.pimgs {
+	text-align: center;
+	margin-top: 330px;
+	background-color: $background-color_3;
+	color: $color_3;
+	font-weight: bold;
+}
+.footerser {
+    @include anclas;
+}

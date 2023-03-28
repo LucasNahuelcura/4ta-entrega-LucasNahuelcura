@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: $font-family_1;
+    background-color: $background-color_1;
+}
+
+/*TURNOS TEXTO Y BTN*/
+
+.maint {
+    
+    background: url(../img/h2.jpg);
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+
+.maint p {
+    font-size: 2rem;
+
+    
+}
+.maint h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+.textt {
+   margin-top: 4rem;
+   text-align: left;
+   color: white;
+   text-decoration: underline;
+   
+}
+
+.btnt  {
+    height: 50px;
+    width: 200px;
+    color: black;
+
+}
